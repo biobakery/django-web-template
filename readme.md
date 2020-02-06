@@ -43,4 +43,4 @@
     ```
 
 Browser Demo :
-![](project_name/static/imgss.png)
+![](project_name/static/img/ss.png)
