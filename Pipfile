@@ -10,7 +10,6 @@ name = "pypi"
 django = "*"
 "argon2-cffi" = "*"
 django-compressor = "*"
-"psycopg2" = "*"
 bcrypt = "*"
 
 
