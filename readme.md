@@ -41,3 +41,6 @@
     ```
     pipenv run python manage.py runserver
     ```
+
+Browser Demo :
+![](project_name/static/imgss.png)
