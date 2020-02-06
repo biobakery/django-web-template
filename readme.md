@@ -42,5 +42,37 @@
     pipenv run python manage.py runserver
     ```
 
+## Testing 
+
+##### Running test cases: 
+This Django template uses Pytest as the testing framework. To run your test cases: 
+- Using command line
+    ```
+    python ./manage.py test
+    ```
+- Using VS code (Run all test cases)
+    - Get the [django-test-runner](https://marketplace.visualstudio.com/items?itemName=Pachwenko.django-test-runner) extension for VS Code. 
+   -    ```
+        ctrl/cmd + d + a 
+        ``` 
+
+##### Generate HTML coverage report  
+```
+pytest --cov=. --cov-report=html
+chromium htmlcov/index.html
+```
+
+##### Test for Deprecation Warnings
+If you want to upgrade from Django 1.11 to Django 2.0 you need to make sure that there are no DeprecationWarnings:
+```
+PYTHONWARNINGS=all pytest
+```
+
+ or
+```
+python -Wall manage.py test
+```
+
+
 Browser Demo :
 ![](project_name/static/img/ss.png)
