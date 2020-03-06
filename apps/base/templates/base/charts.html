@@ -5,18 +5,20 @@
     
     {% comment %} plot 3 {% endcomment %}
     {% with name="{{plot3 | safe}}" %}     
-        <div style="float:left; height: 70%;width: 50%; ">{{ name }} </div>
-    {% endwith %}
-
-    {% with name="{{plot2 | safe}}" %}     
-        <div style="float:left; height: 70%;width: 50%; ">{{ name }} </div>
-    {% endwith %}
-
-    {% with name="{{plot1 | safe}}" %}     
-        <div style="float:left; height: 70%;width: 50%; ">{{ name }} </div>
+        <div style="float:left; height: 50%;width: 50%; ">{{ name }} </div>
     {% endwith %}
 
     {% with name="{{plot4 | safe}}" %}     
-        <div style="float:left; height: 70%;width: 50%; ">{{ name }} </div>
+        <div style="float:right; height: 50%;width: 50%; ">{{ name }} </div>
     {% endwith %}
+
+    {% with name="{{plot2 | safe}}" %}     
+        <div style="float:left; height: 50%;width: 50%; ">{{ name }} </div>
+    {% endwith %}
+
+    {% with name="{{plot1 | safe}}" %}     
+        <div style="float:right; height: 50%;width: 50%; ">{{ name }} </div>
+    {% endwith %}
+
+    
 {% templatetag openblock %} endblock {% templatetag closeblock %}
