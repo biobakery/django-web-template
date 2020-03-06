@@ -2,5 +2,5 @@
 
 {% templatetag openblock %} block content {% templatetag closeblock %}
     <div style="margin-top:4pc"><h2 >Charts</h2></div>
-    <div style="float:left; height: 70%;width: 50%; ">{{% plot3 %}} </div>
+    <div style="float:left; height: 70%;width: 50%; ">{{ plot3 | safe }} </div>
 {% templatetag openblock %} endblock {% templatetag closeblock %}
