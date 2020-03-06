@@ -14,8 +14,7 @@
 - #### Git and Github accounts
     Follow this installation guide [HERE](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install Git in your local machine. Additionally, direct to Github [sign up](https://github.com/join?source=header-home) page if you do not have the account. 
 - #### Python(version>2.7 or >3.0)
-- #### PIP
-    Follow [official PIP link](https://pip.pypa.io/en/stable/installing/) for installation instruction. 
+- #### PIP: Follow [official PIP link](https://pip.pypa.io/en/stable/installing/) for installation instruction. 
 - ```
     pip install django
     ```
