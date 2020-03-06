@@ -2,8 +2,8 @@
 
 {% block content %}
     <div style="margin-top:4pc"><h2 >Charts</h2></div>
-    <div style="float:left; height: 70%;width: 50%; ">{{% plot3 | safe %}} </div>
-    <div style="float:right; height: 70%;width: 50%; ">{{% plot4 | safe %}} </div>
+    <div style="float:left; height: 70%;width: 50%; ">{{% plot3 %%}} </div>
+    {% comment %} <div style="float:right; height: 70%;width: 50%; ">{{% plot4 | safe %}} </div>
     <div style="float:left; height: 70%;width: 50%; ">{{% plot1 | safe %}} </div>
-    <div style="float:right; height: 70%;width: 50%; ">{{% plot2 | safe %}} </div>
+    <div style="float:right; height: 70%;width: 50%; ">{{% plot2 | safe %}} </div> {% endcomment %}
 {% endblock %}
