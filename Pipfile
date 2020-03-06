@@ -14,7 +14,8 @@ bcrypt = "*"
 
 
 [dev-packages]
-
+pandas = "*"
+django-compressor = "*"
 django-debug-toolbar = "*"
 sphinx = "*"
 coverage = "*"
