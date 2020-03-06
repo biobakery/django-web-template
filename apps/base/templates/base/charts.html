@@ -2,7 +2,7 @@
 
 {% templatetag openblock %} block content {% templatetag closeblock %}
     <div style="margin-top:4pc"><h2 >Charts</h2></div>
-    {% with name="plot3" %}     
+    {% with name="{{plot3 | safe}}" %}     
         <div style="float:left; height: 70%;width: 50%; ">{{ name }} </div>
     {% endwith %}
 {% templatetag openblock %} endblock {% templatetag closeblock %}
