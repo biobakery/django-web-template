@@ -14,6 +14,7 @@ bcrypt = "*"
 
 
 [dev-packages]
+plotly = "*"
 pandas = "*"
 django-compressor = "*"
 django-debug-toolbar = "*"
